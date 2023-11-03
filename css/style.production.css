@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 body {
-  background-color: #6e6e6e;
+  background-color: #aeaeeb;
   font-family: "Roboto", sans-serif;
   padding: 10px;
   font-weight: 18px;
@@ -348,8 +348,8 @@ label {
   letter-spacing: 0.025rem;
   font-style: normal;
   text-transform: uppercase;
-  color: #23ef59;
-  background-color: #6e6e6e;
+  color: #29e15a;
+  background-color: #343131;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1.25rem;
@@ -383,7 +383,7 @@ label {
 .contactme:hover {
   border: none;
   font-family: inherit;
-  background-color: #1b6bdc;
+  background-color: #01050a;
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -395,7 +395,7 @@ label {
 }
 
 .skype:hover {
-  background-color: #1b6bdc;
+  background-color: #01050b;
 }
 
 .email:hover {
