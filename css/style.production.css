@@ -113,8 +113,8 @@ a {
 
 .portrait {
   position: absolute;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   margin: auto;
   margin-top: -90px;
   left: 0;
@@ -276,7 +276,7 @@ nav {
 
 #about {
   padding: 5em 0.5em 2em;
-  background: #fff;
+  background: #0bcce5;
   color: #343a40;
 }
 
@@ -421,11 +421,11 @@ nav {
   color: #343a40;
 }
 
-.read-more-chatapp {
+.read-more-themovieapp {
   display: none;
 }
 
-.read-more-chatapp.visible {
+.read-more-themovieapp.visible {
   display: block;
 }
 
