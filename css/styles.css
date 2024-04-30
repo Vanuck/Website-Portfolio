@@ -245,6 +245,11 @@ nav {
   z-index: 20;
 }
 
+#pokemonbackground {
+  padding: 5em 0.5em 2em;
+  background: #efec05;
+  color: #343a40;
+}
 /* About Section */
 
 #about {
