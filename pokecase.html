@@ -36,7 +36,7 @@
     <div class="case-study" id="case-start">
       <h1>
         Case Study for
-        <span class="movieapp-style">The Movie App</span> full-stack project
+        <span class="movieapp-style">The Pokedex App</span> javascript project
       </h1>
       <div class="intro">
         <div class="intro-content">
@@ -51,54 +51,46 @@
           <br />
           <h2>Purpose &amp; Context</h2>
           <p>
-            <span class="movieapp-style">The Movie App</span> was a personal
+            <span class="movieapp-style">The Pokedex App</span> was a personal
             project I built as part of my web development course at
-            CareerFoundry to demonstrate my mastery of full-stack JavaScript
-            development.
+            CareerFoundry to demonstrate my mastery of JavaScript development.
           </p>
           <br />
           <h2>Objective</h2>
           <p>
-            The aim of the project was to have an ambitious full-stack project I
-            can add to my professional portfolio. The problem I wanted to solve
-            is to build the complete server-side and client-side for the
-            application from scratch.
+            To design and build a small web application with HTML, CSS, and
+            JavaScript that loads data from an external API and enables the
+            viewing of data points in detail.The problem I was aiming to solve
+            was to be able to build a JavaScript application from scratch.
           </p>
         </div>
         <div class="intro-img">
           <img
-            src="assets/themovieapphome.png"
-            alt="screenshot of movie list"
+            src="assets/pokedexapp.png"
+            alt="screenshot of pokedex list with open modal"
           />
         </div>
       </div>
-      <h2 class="approach-title">Approach</h2>
+      <h2 class="approach-title">The 5 Ws:</h2>
       <div class="server-side">
         <div class="server-content">
-          <h3>Server-Side</h3>
+          <h3>What I learned</h3>
           <p>
-            I created a RESTful API using Node.js and Express, that interacts
-            with a non-relational database (MongoDB). The API can be accessed
-            via commonly used HTTP methods like GET or POST. To retrieve data
-            from and store data in the database, CRUD methods are used. The API
-            provides movie information in JSON format.
+            Since the main goal of this project was to learn programming while
+            programming it was especially important to adhere to good coding
+            practices and maintain a neat, clean codebase. The code has been
+            formatted according to ESLint rules.
           </p>
           <br />
+          <h4>
+            Below is a breakdown of the various project learnings for me during
+            this project:
+          </h4>
           <p>
-            <a
-              href="https://github.com/Vanuck/themovieapp-client/blob/main/README.md#endpoints"
-              class="endpoint-link"
-              target="_blank"
-            >
-              <span class="material-icons arrow-right"> arrow_right </span
-              ><span>View endpoints</span></a
-            >
-          </p>
-          <br />
-          <p>
-            To test the API, I used Postman. I also included user authentication
-            and authorization code in the form of basic HTTP authentication and
-            JWT authentication.
+            * What is JavaScript? * JavaScript Basics * JavaScript Functions *
+            DOM Interaction * APIs, Ajax &amp; Asynchronous Behavior * Complex
+            UI Elements with JavaScript * Introduction to jQuery * Bootstrap
+            &amp; UI Libraries * Performance &amp; Debugging
           </p>
         </div>
         <div class="server-img">
@@ -114,56 +106,59 @@
       </div>
       <div class="client-side">
         <div class="client-content">
-          <h3>Client-Side</h3>
+          <h3>Features</h3>
+          <h4>User Goals</h4>
           <p>
-            After completing the API, I started to build the interface users
-            would need when making requests to, and receiving responses from,
-            the server-side. It is a single-page, responsive application,
-            developed with React and React-Redux. It provides several interface
-            views, including, but not limited to, a main view (shows a list of
-            all movies), single movie view (shows data about a single movie and
-            allows users to add the movie to their list of favorites), a login
-            view, a registration view and a profile view (where users can update
-            their user data and list of favorites).
+            Users should be able to view a list of data and see more details for
+            a given data item on demand. For this project a small Pokedex app
+            was chosen as the theme.
+          </p>
+          <h4>Key Features:</h4>
+          <p>
+            ● Load data from an external source (API) ● View a list of items ●
+            On user action (e.g., by clicking on a list item), view details for
+            that item
           </p>
         </div>
         <div class="client-img">
           <div>
-            <img
-              src="assets/themovieapplogin.png"
-              alt="screenshot of login view"
-            />
+            <img src="assets/pokeball.svg" alt="screenshot of a pokeball" />
           </div>
           <div>
-            <img
-              src="assets/themovieappmovie.png"
-              alt="screenshot of movie view"
-            />
+            <img src="assets/mockup1.png" alt="screenshot of mock up view 1" />
           </div>
           <div>
-            <img
-              src="assets/themovieappprofile.png"
-              alt="screenshot of profile view"
-            />
+            <img src="assets/mockup2.png" alt="screenshot of mock up view 2" />
           </div>
         </div>
+      </div>
+      <div class="duration">
+        <h2>Technical Requirements</h2>
+        <p>
+          ● The app must load data from an external API; in this instance, the
+          Pokémon API . ● The app must display a list of items loaded from that
+          API after the page is loaded. ● The app must enable the viewing of
+          more details for a given list item (like a Pokémon) on demand, such as
+          when clicking on a list item. ● The app must have CSS styling. ● The
+          JavaScript code must be formatted according to ESLint rules. ○ The
+          JavaScript code may be formatted via Prettier. ○ The JavaScript code
+          may be manually formatted. ● The app must use at least one additional
+          complex UI pattern, such as a modal, for details or touch
+          interactions. ○ The app may allow searching for items (e.g., searching
+          for Pokémon). ● The app must not throw any errors when being used. ●
+          The app should be deployed to a publicly accessible platform like
+          GitHub Pages. ● The app must work in Chrome, Firefox, Safari, Edge,
+          and Internet Explorer 11.
+        </p>
       </div>
       <div class="challenges">
         <h2>Challenges</h2>
         <p>
-          I enjoyed building this API and working with database structures. I
-          also became more familiar with using the terminal. Developing the
-          client-side, React and Redux were areas I had initial challenges with,
-          but with the help of my mentor I was able to work through the
-          challenges and achieved the desired results.
-        </p>
-      </div>
-      <div class="duration">
-        <h2>Duration</h2>
-        <p>
-          The development of the client-side took me longer than normal to
-          complete as a CareerFoundry achievement. It was because I needed time
-          to wrap my head around how React (and React Redux) work.
+          This was my favorite project since it was my first project that
+          allowed more creativity. I have enjoyed building the app and working
+          with JavaScript. It took me a while to understand how CSS works along
+          with DOM interaction and how to achieve my results. But with
+          persistence I was able to achieve my desired results.
         </p>
       </div>
       <div class="credits">
@@ -176,9 +171,10 @@
       </div>
     </div>
     <div class="project-links">
-      <a href="https://github.com/Vanuck/themovieapp-client" target="_blank"
+      <a href="https://github.com/Vanuck/Simple-JS-App-Pokedex" target="_blank"
         >Code</a
-      ><a href="https://the-top-movie-app.netlify.app/" target="_blank">Demo</a
+      ><a href="https://vanuck.github.io/Simple-JS-App-Pokedex/" target="_blank"
+        >Demo</a
       ><a href="index.html.work" target="_blank">Back</a>
     </div>
 
