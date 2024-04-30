@@ -327,7 +327,7 @@ nav {
 
 /* Dev-Skills Sections */
 
-.dev-skills {
+#dev-skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -769,7 +769,7 @@ nav {
     padding: 5em 1em 2em;
   }
 
-  .dev-skills {
+  #dev-skills {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
