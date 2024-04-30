@@ -65,7 +65,7 @@ a {
   text-decoration: none;
 }
 
-.main h1 {
+#main h1 {
   text-transform: uppercase;
 }
 
@@ -322,7 +322,7 @@ nav {
 
 /* Work Section */
 
-.work {
+#work {
   padding: 5em 0.5em 2em;
   background: var(--primary-bg-color);
   color: var(--secondary-font-color);
@@ -442,13 +442,13 @@ nav {
 
 /* Contact Section */
 
-.contact {
+#contact {
   padding: 2em;
   background: var(--primary-color);
   color: var(--primary-font-color);
 }
 
-.contact h1 {
+#contact h1 {
   padding: 0;
   margin-bottom: 2em;
 }
@@ -473,7 +473,7 @@ nav {
 
 /* Footer */
 
-.main-footer {
+#main-footer {
   padding: 2em 1em 0.5em;
   border-top: 8px solid var(--primary-lighter);
   text-align: center;
@@ -662,7 +662,7 @@ nav {
     min-height: 74px;
   }
 
-  .work {
+  #work {
     padding: 5em 1em 2em;
   }
 
@@ -734,7 +734,7 @@ nav {
     margin: 3em 0;
   }
 
-  .work {
+  #work {
     padding: 5em 2em;
   }
 
@@ -751,7 +751,7 @@ nav {
     margin-bottom: 1em;
   }
 
-  .contact {
+  #contact {
     padding: 3em;
   }
 
