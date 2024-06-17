@@ -42,7 +42,7 @@ themovieappBtn.addEventListener("click", readMorethemovieapp);
 // Toggle read more myflixapp
 
 function readMoremyflixapp() {
-  let moremyflixapp = document.querySelector(".read-more-myflix");
+  let moremyflixapp = document.querySelector(".read-more-myflixapp");
   let myflixappBtn = document.querySelector(".btn-toggle-myflixapp");
   moremyflixapp.classList.toggle("visible");
 
