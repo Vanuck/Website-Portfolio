@@ -362,6 +362,12 @@ nav {
   margin-top: 1em;
 }
 
+.myflixapp-card h4 {
+  text-align: left;
+  padding: 0;
+  margin-top: 1em;
+}
+
 .btn-toggle {
   margin: 1em 0;
   padding: 0;
@@ -517,6 +523,9 @@ nav {
   background: var(--primary-light);
 }
 
+.myflixapp-style {
+  background: var(--primary-light);
+}
 .case-header {
   position: sticky;
   top: 0;
