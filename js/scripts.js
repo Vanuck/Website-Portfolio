@@ -39,6 +39,24 @@ let themovieappBtn = document.querySelector(".btn-toggle-themovieapp");
 
 themovieappBtn.addEventListener("click", readMorethemovieapp);
 
+// Toggle read more myflixapp
+
+function readMoremyflixapp() {
+  let moremyflixapp = document.querySelector(".read-more-myflix");
+  let myflixappBtn = document.querySelector(".btn-toggle-myflixapp");
+  moremyflixapp.classList.toggle("visible");
+
+  if (moremyflixapp.classList.contains("visible")) {
+    myflixappBtn.innerHTML = "Read less";
+  } else {
+    myflixappBtn.innerHTML = "Read more";
+  }
+}
+
+let myflixappBtn = document.querySelector(".btn-toggle-myflixapp");
+
+myflixappBtn.addEventListener("click", readMoremyflixapp);
+
 // Add active class to currently clicked menu-item
 let menuItems = document.querySelectorAll(".menu-item");
 

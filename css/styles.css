@@ -390,6 +390,14 @@ nav {
   display: block;
 }
 
+.read-more-myflix {
+  display: none;
+}
+
+.read-more-myflix.visible {
+  display: block;
+}
+
 .endpoint-link,
 .setup-link {
   display: flex;

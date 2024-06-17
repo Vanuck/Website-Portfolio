@@ -294,6 +294,12 @@ nav {
   text-align: center;
 }
 
+.themovieapp-card h4 {
+  text-align: left;
+  padding: 0;
+  margin-top: 1em;
+}
+
 .card-text {
   padding: 1em;
 }
