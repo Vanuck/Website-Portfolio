@@ -434,11 +434,11 @@ nav {
   display: block;
 }
 
-.read-more-myflix {
+.read-more-myflixapp {
   display: none;
 }
 
-.read-more-myflix.visible {
+.read-more-myflixapp.visible {
   display: block;
 }
 .endpoint-link {
