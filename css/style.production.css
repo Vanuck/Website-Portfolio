@@ -111,6 +111,7 @@ a {
 .box-two {
   position: relative;
   background: #1d1de6;
+  height: 100vh;
 }
 
 .portrait {
