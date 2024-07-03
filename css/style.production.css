@@ -535,7 +535,7 @@ nav {
 #contact {
   padding: 2em;
   background: #0b104b;
-  color: #fff;
+  color: #e5f505;
 }
 
 #contact h1 {
@@ -567,7 +567,7 @@ nav {
 .mail-icon {
   margin-right: 0.2em;
   padding: 0;
-  color: #fff;
+  color: #e5f505;
   font-size: 2em;
 }
 
@@ -888,7 +888,7 @@ nav {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
   }
 
   .project-card {
