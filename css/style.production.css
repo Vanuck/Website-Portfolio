@@ -101,7 +101,7 @@ a {
   min-height: 450px;
   color: #fff;
   text-align: center;
-  }
+}
 
 .box-one {
   min-height: 180px;
@@ -111,7 +111,7 @@ a {
 .box-two {
   position: relative;
   background: #1d1de6;
- }
+}
 
 .portrait {
   position: absolute;
