@@ -62,8 +62,9 @@ ul {
 }
 
 a {
-  text-decoration: none;
-}
+  text-decoration-color: #efec05
+  /* text-decoration: none;
+} */
 
 #main h1 {
   text-transform: uppercase;
