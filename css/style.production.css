@@ -534,7 +534,7 @@ nav {
 
 #contact {
   padding: 2em;
-  background: #a6aeff;
+  background: #0b104b;
   color: #fff;
 }
 
@@ -561,6 +561,7 @@ nav {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  color: #e5f505;
 }
 
 .mail-icon {
