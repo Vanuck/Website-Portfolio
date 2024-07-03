@@ -464,7 +464,7 @@ nav {
 #contact {
   padding: 2em;
   background: var(--primary-color);
-  color: var(--primary-font-color);
+  color: var(#e5f505);
 }
 
 #contact h1 {
