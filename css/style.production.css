@@ -524,6 +524,7 @@ nav {
   background: #343a40;
   color: #fff;
   border-bottom: 5px solid #24282c;
+  border-radius: 12px;
   text-transform: uppercase;
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
