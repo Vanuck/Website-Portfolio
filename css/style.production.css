@@ -513,12 +513,12 @@ nav {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 1em;
-  padding: 0.5em;
+  padding: 0.8em;
 }
 
 .project-links a {
   margin: 0 0.2em;
-  padding: 0.5em;
+  padding: 0.8em;
   background: #343a40;
   color: #fff;
   border-bottom: 5px solid #24282c;
@@ -701,15 +701,15 @@ nav {
   .grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 0.5em 1fr 0.5em;
+    -ms-grid-columns: 1fr 2em 1fr 2em;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-column-gap: 0.5em;
-    -moz-column-gap: 0.5em;
-    column-gap: 0.5em;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
   }
 
   .content-container {
@@ -749,15 +749,15 @@ nav {
   .projects-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 0.5em 1fr 0.5em 1fr;
+    -ms-grid-columns: 1fr 2em 1fr 2em 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-column-gap: 0.5em;
-    -moz-column-gap: 0.5em;
-    column-gap: 0.5em;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
   }
 
   .arrow-up {
@@ -775,11 +775,11 @@ nav {
   .grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 0.5em 1fr 0.5em 1fr 0.5em 1fr 0.5em 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    -webkit-column-gap: 0.5em;
-    -moz-column-gap: 0.5em;
-    column-gap: 0.5em;
+    -ms-grid-columns: 1fr 2em 1fr 2em 1fr 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
   }
 
   .content-container {
