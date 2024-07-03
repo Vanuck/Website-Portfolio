@@ -76,6 +76,7 @@ a {
   background: #1d1de6;
   color: #fff;
   border: 12px solid #fff;
+  border-radius: 12px;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition-duration: 0.3s;
