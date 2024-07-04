@@ -176,7 +176,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 1em 1em 1em 1em;
   list-style: none;
 }
 
@@ -706,6 +706,7 @@ nav {
 
 .social.case-social {
   padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 .case-footer {
