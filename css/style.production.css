@@ -282,7 +282,7 @@ nav {
 /* About Section */
 
 #about {
-  padding: 5em 0.5em 2em;
+  padding: 3em 0.5em 3em;
   background: #0bcce5;
   color: #343a40;
 }
@@ -754,7 +754,7 @@ nav {
   .projects-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 6em 1fr 6em 1fr;
+    -ms-grid-columns: 1fr 6em 1fr 6em 1fr 6em;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     -webkit-box-pack: center;
@@ -877,7 +877,7 @@ nav {
   }
 
   #about {
-    padding: 5em 2em 2em;
+    padding: 3em 2em 2em;
   }
 
   .transferable-skills {
@@ -895,7 +895,7 @@ nav {
   .projects-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 4em 1fr 4em 1fr 4em;
+    -ms-grid-columns: 1fr 6em 1fr 6em 1fr 6em;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
