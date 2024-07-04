@@ -101,12 +101,6 @@ a {
   min-height: 450px;
   color: #fff;
   text-align: center;
-  position: initial;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: auto;
 }
 
 .box-one {
