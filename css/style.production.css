@@ -62,9 +62,8 @@ ul {
 }
 
 a {
+  color: #efec05;
   text-decoration-color: red;
-  /* text-decoration: none;
-*/
 }
 
 #main h1 {
@@ -381,7 +380,7 @@ nav {
 /* Work Section */
 
 #work {
-  padding: 5em 5em 2em;
+  padding: 8em 8em 4em;
   background: #f9f6f7;
   color: #343a40;
 }
