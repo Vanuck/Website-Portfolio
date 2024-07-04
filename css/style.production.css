@@ -365,6 +365,12 @@ nav {
   border-radius: 12px;
 }
 
+.devskill {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
 .devskills-tag {
   margin: 0.3em;
   padding: 0.5em;
@@ -372,13 +378,35 @@ nav {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 9em;
-  background: #24282c;
-  color: #fff;
+  background: linear-gradient(
+    to right,
+    #2727eb,
+    #0099ff,
+    #83ef83,
+    #de1818,
+    #1fc4e9
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+  /* background: #24282c;
+  color: #fff; */
   text-transform: uppercase;
   font-size: 0.8em;
   border-radius: 12px;
 }
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
 
+  50% {
+    background-position: 100% 0;
+  }
+}
 /* Work Section */
 
 #work {
