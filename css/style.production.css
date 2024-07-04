@@ -721,7 +721,7 @@ nav {
 
 @media screen and (min-width: 576px) {
   .social {
-    padding: 3em 0.5em 1em;
+    padding: 1em 0.5em 1em;
   }
 }
 
@@ -747,7 +747,7 @@ nav {
   }
 
   .social {
-    padding: 4em 0.5em 1em;
+    padding: 1em 0.5em 1em;
   }
 
   nav {
