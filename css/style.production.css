@@ -282,7 +282,7 @@ nav {
 /* About Section */
 
 #about {
-  padding: 3em 0.5em 3em;
+  padding: 1em 0.5em 1em;
   background: #0bcce5;
   color: #343a40;
 }
@@ -877,7 +877,7 @@ nav {
   }
 
   #about {
-    padding: 3em 2em 2em;
+    padding: 1em 1em 1em;
   }
 
   .transferable-skills {
